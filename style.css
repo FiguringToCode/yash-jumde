@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif !important;
+}
+
+.flex {
+    display: flex;
+}
+.justify-content {
+    justify-content: space-around !important;
+    align-items: center;
+    gap: 7px;
+}
+
+.header-color{
+    background-color: #1c3843;
+}
+
+.header-h2-01 {
+    color: rgb(233, 171, 15) !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+.header-h2-01:hover {
+    color: white !important;
+    background-color: rgb(233, 171, 15);
+    transition: ease-in-out;
+}
+
+.header-h2-02 {
+    color: rgb(40, 141, 214) !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+.header-h2-02:hover {
+    color: white !important;
+    background-color: rgb(81, 188, 230);
+}
+
+.header-h2-03 {
+    color: white !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+.header-h2-03:hover {
+    color: rgb(233, 171, 15) !important;
+    background-color: white;
+}
+
+.logo-margin {
+    margin-left: 7rem !important;
+}
+
+.navbar-nav  a:hover {
+    color: goldenrod !important;
+}
+
+.hero-section {
+    background-image: url(./assets/14128-Blog-Title-CollaborativeTeam.jpg);
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    opacity: 50%;
+}
+.hero-section  h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 10;
+}
+.hero-section hr {
+    width: 200px;
+    border-color: darkgoldenrod;
+    border-width: 5px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 10;
+    margin-left: 50px;
+}
+.hero-section p {
+    padding-left: 50px;
+}
+
+
+.hero-sec-2-P1 {
+    background-color: #12475f;
+    width: 100%;
+    height: 50vh;
+    color: white;
+}
+.hero-sec-2-P1-text {
+    margin: 70px 0px 0px 120px;
+    font-size: 16px;
+}
+.hero-sec-2-P1-img {
+    padding: 70px 120px 0px 0px;
+    margin: 0px 0px 0px 70px;
+    width: 1200px;
+}
+
+.hero-sec-2-P2 {
+    width: 100%;
+    height: 50vh;
+}
+.hero-sec-2-P2 h3 {
+    color: #12375f;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+    padding: 0px 100px;
+
+}
+.hero-sec-2-P2 div {
+    background-color: #eaf1ee;
+    width: 40vw;
+    height: 30vh;
+}
+
+.hero-sec-2-P2-div-1 {
+    color: black !important;
+    margin: 50px 110px;
+}
+.hero-sec-2-P2-div-2 {
+    color: black !important;
+    margin: -16.8rem 50rem;
+}
+
+.video-section h3 {
+    color: #12375f;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px 100px;
+}
+.video-section {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 180vh;
+} 
+.ratio {
+    width: 85% !important;
+    height: 120vh;
+    margin: 0rem 8rem;
+}
+
+.list-group li {
+    margin-left: 25rem !important;
+}
+
+.cards h4 {
+    color: #12375f;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px 100px;
+}
+.cards .row {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+.bg-card-1 {
+    background-color: #e9f4f6;
+}
+.bg-card-2 {
+    background-color: #5aaee6;
+}
+.bg-card-3 {
+    background-color: #f7e6c5;
+}
+.bg-card-4 {
+    background-color: #c4e193;
+}
+.bg-card-5 {
+    background-color: #ec817c;
+}
+.cards-para {
+    margin: 2rem 0rem 0rem 5rem;
+}
+.cards-para b:hover {
+    cursor: pointer;
+    color: #5aaee6 !important;
+}
+.cards button {
+    color: white;
+    background-color: #ffab00;
+    cursor: pointer;
+    padding: 0.5rem 3rem;
+    margin: 2rem 0rem 3rem 37rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 120vh;
+    background-color: #12475f;
+}
+footer table {
+    padding: 5rem 0rem 0rem 0rem;
+}
+.tabel b:hover {
+    cursor: pointer;
+    color: #5aaee6 !important;
+}
